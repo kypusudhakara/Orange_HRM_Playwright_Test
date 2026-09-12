@@ -1,0 +1,21 @@
+{
+  "name": "orangehrm-employee-lifecycle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright TypeScript employee lifecycle assessment for OrangeHRM",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:list": "playwright test --list",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^24.0.0",
+    "dotenv": "^17.0.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": { "node": ">=20" }
+}
